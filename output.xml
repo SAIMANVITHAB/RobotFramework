@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220208 23:02:10.242" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220209 10:29:09.818" rpa="false" schemaversion="2">
 <suite id="s1" name="Demo2 Suite" source="C:\Users\Sreedharreddy\PycharmProjects\robot_framework\selenium_suite\demo2_suite.robot">
 <test id="s1-t1" name="TC1 Valid Login">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -7,59 +7,53 @@
 <arg>browser=firefox</arg>
 <arg>executable_path=${EXECDIR}/driver/geckodriver</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220208 23:02:12.597" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
-<msg timestamp="20220208 23:02:12.619" level="INFO">Firefox driver log is always forced to to: C:\Users\Sreedharreddy\PycharmProjects\robot_framework\geckodriver-7.log</msg>
-<status status="PASS" starttime="20220208 23:02:12.597" endtime="20220208 23:02:38.723"/>
+<msg timestamp="20220209 10:29:13.122" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<msg timestamp="20220209 10:29:13.160" level="INFO">Firefox driver log is always forced to to: C:\Users\Sreedharreddy\PycharmProjects\robot_framework\geckodriver-8.log</msg>
+<msg timestamp="20220209 10:30:02.784" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220209 10:30:02.951" level="FAIL">WebDriverException: Message: Process unexpectedly closed with status 0
+</msg>
+<status status="FAIL" starttime="20220209 10:29:13.121" endtime="20220209 10:30:02.951"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id=txtUsername</arg>
 <arg>Admin</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220208 23:02:38.725" level="INFO">Typing text 'Admin' into text field 'id=txtUsername'.</msg>
-<status status="PASS" starttime="20220208 23:02:38.724" endtime="20220208 23:02:38.842"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.965" endtime="20220209 10:30:02.965"/>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <arg>id=txtPassword</arg>
 <arg>admin123</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<msg timestamp="20220208 23:02:38.844" level="INFO">Typing password into text field 'id=txtPassword'.</msg>
-<msg timestamp="20220208 23:02:38.878" level="INFO">Temporally setting log level to: NONE</msg>
-<msg timestamp="20220208 23:02:38.913" level="INFO">Log level changed from NONE to INFO.</msg>
-<status status="PASS" starttime="20220208 23:02:38.843" endtime="20220208 23:02:38.913"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.967" endtime="20220209 10:30:02.967"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>name=Submit</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220208 23:02:38.917" level="INFO">Clicking element 'name=Submit'.</msg>
-<status status="PASS" starttime="20220208 23:02:38.915" endtime="20220208 23:02:43.337"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.969" endtime="20220209 10:30:02.969"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id=welcome</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220208 23:02:43.338" level="INFO">Clicking element 'id=welcome'.</msg>
-<status status="PASS" starttime="20220208 23:02:43.338" endtime="20220208 23:02:44.079"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.971" endtime="20220209 10:30:02.971"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220208 23:02:49.088" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220208 23:02:44.080" endtime="20220208 23:02:49.088"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.973" endtime="20220209 10:30:02.973"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>link=Logout</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220208 23:02:49.088" level="INFO">Clicking element 'link=Logout'.</msg>
-<msg timestamp="20220208 23:02:49.420" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20220208 23:02:49.551" level="FAIL">Element with locator 'link=Logout' not found.</msg>
-<status status="FAIL" starttime="20220208 23:02:49.088" endtime="20220208 23:02:49.551"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.975" endtime="20220209 10:30:02.975"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" starttime="20220208 23:02:49.551" endtime="20220208 23:02:49.551"/>
+<status status="NOT RUN" starttime="20220209 10:30:02.976" endtime="20220209 10:30:02.977"/>
 </kw>
-<status status="FAIL" starttime="20220208 23:02:12.582" endtime="20220208 23:02:49.551">Element with locator 'link=Logout' not found.</status>
+<status status="FAIL" starttime="20220209 10:29:13.120" endtime="20220209 10:30:02.978">WebDriverException: Message: Process unexpectedly closed with status 0
+</status>
 </test>
-<status status="FAIL" starttime="20220208 23:02:10.242" endtime="20220208 23:02:49.558"/>
+<status status="FAIL" starttime="20220209 10:29:09.833" endtime="20220209 10:30:02.982"/>
 </suite>
 <statistics>
 <total>
