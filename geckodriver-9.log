@@ -1,0 +1,17 @@
+1644385683256	geckodriver	INFO	Listening on 127.0.0.1:54339
+1644385686347	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54340" "-no-remote" "-profile" "C:\\Users\\SREEDH~1\\AppData\\Local\\Temp\\rust_mozprofileprDqMN"
+1644385692572	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sreedharreddy\\AppData\\Local\\Temp\\rust_mozprofileprDqMN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54340/devtools/browser/e77c0635-b82e-4aac-9db8-92ba002557cb
+1644385716536	Marionette	INFO	Listening on port 54345
+1644385716746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.openemr.io"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.openemr.io"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644391121821	Marionette	INFO	Stopped listening on port 54345
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 288: TypeError: this._builder is undefined
+[Parent 6584, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.

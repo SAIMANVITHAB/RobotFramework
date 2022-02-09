@@ -1,0 +1,14 @@
+1644389253458	geckodriver	INFO	Listening on 127.0.0.1:55179
+1644389256531	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55180" "-no-remote" "-profile" "C:\\Users\\SREEDH~1\\AppData\\Local\\Temp\\rust_mozprofilexcslVP"
+1644389259464	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sreedharreddy\\AppData\\Local\\Temp\\rust_mozprofilexcslVP\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:55180/devtools/browser/441b2110-ee7a-4a3e-a79c-dd258345e2c4
+1644389287323	Marionette	INFO	Listening on port 55187
+1644389287569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.openemr.io"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.openemr.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1644391125012	Marionette	INFO	Stopped listening on port 55187
