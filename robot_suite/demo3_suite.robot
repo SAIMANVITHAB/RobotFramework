@@ -21,3 +21,9 @@ TC2
         Log To Console    ${COLORS}[${i}]
 
     END
+
+TC3
+    FOR    ${color}    IN    @{COLORS}
+        Log To Console    ${color}
+
+    END
