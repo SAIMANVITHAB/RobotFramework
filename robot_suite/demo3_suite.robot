@@ -1,6 +1,9 @@
+*** Settings ***
+Library    Collections
 *** Variables ***
 ${MY_NAME}      Manvitha
 @{COLORS}   blue    green   black   red     yellow
+&{EMPLOYEE1}    empid=101   empname=manvi   age=22
 *** Test Cases ***
 TC1
     Log To Console    ${EXECDIR}
@@ -27,3 +30,12 @@ TC3
         Log To Console    ${color}
 
     END
+
+Tc4
+    Log To Console    ${EMPLOYEE1}
+    Log To Console    ${EMPLOYEE1}[empname]
+    Log To Console    ${EMPLOYEE1}[age]
+    Log Dictionary    ${EMPLOYEE1}
+    Log List    ${COLORS}
+
+
