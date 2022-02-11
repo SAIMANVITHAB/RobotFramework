@@ -10,7 +10,12 @@ TC1
      ${linkcount}   Get Element Count      tag=a
      Log To Console    ${linkcount}
 
-     @{element}     Get WebElement    tag=a
+     @{elements}     Get WebElements    tag=a
+    FOR     ${i}    IN RANGE    0   ${linkcount}    1
+        ${text}     Get Text    ${elements}[${i}]
+        Log To Console      ${text}
+        Run Keyword If    '${text}'==Images     Click Element    ${elements}[${i}]
+        Exit For Loop If    '${text}'==Images
+    END
 
-     ${text}    Get Text    ${element}[0]
-     Log To Console    ${text}
+

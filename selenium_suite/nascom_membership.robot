@@ -14,3 +14,4 @@ TC1
      Sleep    2s
      ${alert_text}  Handle Alert    action=ACCEPT
      Log To Console    ${alert_text}
+

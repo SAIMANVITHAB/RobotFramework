@@ -10,3 +10,13 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
 TimedPromise@chrome://remote/content/marionette/sync.js:224:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2055: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://nasscom.in/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://nasscom.in/sites/default/files/css/css_hRC9HR06p6zDy3Nn-nm3B3rnoKt5lQ3vjmpJIuiye5k.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://nasscom.in/sites/default/files/css/css_ljVHEhM-TaYkg2_pe94OWFUaJH5YBtxbye0JKFv8oYU.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://nasscom.in/sites/default/files/css/css_V0h-MjKxUuG8tsIXwk9iC0XsDq2LSDUO4yEF6FKyipw.css without a browsingContextID set
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1611: Error: permitUnload is already running for this tab.
+JavaScript error: chrome://browser/content/browser.js, line 8070: uncaught exception: undefined
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Sreedharreddy\AppData\Local\Temp\rust_mozprofilen4n6gs\bookmarkbackups\bookmarks-2022-02-09.jsonlz4) because it does not exist
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644431870216	Marionette	INFO	Stopped listening on port 64720

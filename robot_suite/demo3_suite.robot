@@ -4,6 +4,7 @@ Library    Collections
 ${MY_NAME}      Manvitha
 @{COLORS}   blue    green   black   red     yellow
 &{EMPLOYEE1}    empid=101   empname=manvi   age=22
+&{PERSONAL_DETAIL}      firstname=manvi     lastname=manvitha       mobile=7893756515
 *** Test Cases ***
 TC1
     Log To Console    ${EXECDIR}
@@ -37,5 +38,12 @@ Tc4
     Log To Console    ${EMPLOYEE1}[age]
     Log Dictionary    ${EMPLOYEE1}
     Log List    ${COLORS}
+
+TC5
+    Log To Console    ${PERSONAL_DETAIL}[firstname]
+
+TC6
+    Log To Console    ${PERSONAL_DETAIL}[firstname]
+
 
 
