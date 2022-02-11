@@ -9,3 +9,8 @@ TC1
      Go To    url=http://google.com/
      ${linkcount}   Get Element Count      tag=a
      Log To Console    ${linkcount}
+
+     @{element}     Get WebElement    tag=a
+
+     ${text}    Get Text    ${element}[0]
+     Log To Console    ${text}
